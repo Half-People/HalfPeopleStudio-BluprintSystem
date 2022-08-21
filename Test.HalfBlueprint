@@ -1,0 +1,6 @@
+
+<Half VariableListSave> </>
+int<Half Text>NewVariable_Int<Half Color>0<G>0<B>0<A>0<Half Includ><Half InputMode>3<Half Int>5<Half Text><Half Float>0<Half Bool>1<NotInputCreateData>
+bool<Half Text>NewVariable_Bool<Half Color>0<G>0<B>0<A>0<Half Includ><Half InputMode>0<Half Int>0<Half Text><Half Float>0<Half Bool>1<NotInputCreateData>
+std::string<Half Text>NewVariable_String<Half Color>0<G>0<B>0<A>0<Half Includ>#include <string><Half InputMode>1<Half Int>0<Half Text>dadfsdsdsdfsf<Half Float>0<Half Bool>0<NotInputCreateData>tCreateData>
+<Half LinkSave> </>

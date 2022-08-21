@@ -1,0 +1,13 @@
+<PluginFile>
+InBuildFile<File>test.h
+InExportFile<File>test.dll
+InBuildFile<File>test.lib
+<Half Function>
+HalfBlueprintSystemPrint<Name>Print<HPinvList>signal,> Input<>std::string,# Text<Out>signal,outpute ><End HPinvList>std::cout << <NextHalfCode> <> <NextHalfCode> <NextHalfCode>;\n <HalfCode End> #include <iostream> <NextInclude> #include <string> <Have Pure Function>0<End>
+<Half Variable>
+std::strin<InputType>Text<Var Color>1,1,1<BaceName>string<Include> #include <string> <End Include>
+           // InputType : NotInput / float / int / text / bool ...
+
+//so var list the struct have the var type , var color or image , spawn the bace name , include the .h
+
+//and fun list the struct have the FunctionID , Fun show in Blueprint the Name, HPinvList (Var Type , Pin Show Text) , HalfCode (Function Code e.g."void Test (1,2,TestVar) == void Test(" , Next Function the head append hwo text , All Next Function End append hwo Text , this Function End append how Text, Function Input Var the Partition Symbol e.g. "," this is vector!!  )

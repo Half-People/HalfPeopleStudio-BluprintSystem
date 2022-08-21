@@ -1,0 +1,16 @@
+//This Plugin for HalfPeople Studio Blueprint System!!
+<---EditorPlugin--->
+<---Plugin File--->MyBlueprintSystemPlugin.dll
+<FunctionList>
+<FunctionID>HalfBlueprint-Print   打印文本<HName>打印文本 ( Print )<Half Pin Input>signal<>> 信号引脚<>1<>1<>1<>1<>#include <iostream><>-1<Next>std::string<># 字符串 (String)<>1<>1<>1<>1<>#include <string><>1<Half Pin Output>signal<>Output ><>1<>1<>1<>1<><>-1<Half Code>std::cout <<<C Head Append><C End><Code End Append>;<\n><All Code End><PartitionSymbol><PeerOperation>-1<Half Inculd><Half End>
+<FunctionID>HalfBlueprint-If      如果<HName>如果 ( if )<Half Pin Input>signal<>> 信号引脚<>1<>1<>1<>1<><>-1<Next>bool<>o> 为对的(is true) <>1<>1<>1<>1<><>0<Half Pin Output>signal<>对的 (True ) ><>1<>1<>1<>1<><>-1<Next>signal<>否则 (False) ><>1<>1<>1<>1<><>-1<Half Code>if(<C Head Append>	<C End><\n><Append>}<\n><Append>else<\n><Append>{<\n><Code End Append>)<\n><Append>{<\n><All Code End><\n><Append>}<PartitionSymbol><PeerOperation>1<Half Inculd><Half End>
+<FunctionID>HalfBlueprint-While   循环<HName>循环 ( while )<Half Pin Input>signal<>> 信号引脚<>1<>1<>1<>1<><>-1<Next>bool<>o>是否循环 (Is Loop)<>1<>1<>1<>1<><>0<Half Pin Output>signal<>循环 (Loop) > <>1<>1<>1<>1<><>-1<Next>signal<>循环完毕 (Run End)<>1<>1<>1<>1<><>-1<Half Code>while(<C Head Append>	<C End><\n><Append>}<Code End Append>)<\n><Append>{<\n><All Code End><PartitionSymbol><PeerOperation>1<Half Inculd><Half End>
+<FunctionID>HalfBlueprint-Branch  分支<HName>分支 ( Branch)<Half Pin Input>signal<>> 信号引脚<>1<>1<>1<>1<><>-1<Half Pin Output>signal<>   信号引脚 1 > <>1<>1<>1<>1<><>-1<Next>signal<>   信号引脚 2 > <>1<>1<>1<>1<><>-1<Half Code><\n><C Head Append><C End><\n><Code End Append><All Code End><PartitionSymbol><PeerOperation>1<Half Inculd><Half End>
+<Half Variable>
+<HVar Type>bool<HVar Text>布爾 ( bool )<HVar Color>1<>1<>1<>1<HVar Inculd><HVar InputMode>0<VarIntDefaultValue>0<VarTextDefaultValue><VarFloatDefaultValue>0.f<VarBoolDefaultValue>0<VarNotInputDefaultValue>
+<HVar Type>std::string<HVar Text>字符串 ( string )<HVar Color>1<>1<>1<>1<HVar Inculd>#inculd <string><HVar InputMode>1<VarIntDefaultValue>0<VarTextDefaultValue>Null<VarFloatDefaultValue>0.f<VarBoolDefaultValue>0<VarNotInputDefaultValue>
+<HVar Type>float<HVar Text>單浮點 ( float )<HVar Color>1<>1<>1<>1<HVar Inculd><HVar InputMode>2<VarIntDefaultValue>0<VarTextDefaultValue><VarFloatDefaultValue>0.f<VarBoolDefaultValue>0<VarNotInputDefaultValue>
+<HVar Type>int<HVar Text>整數 ( int )<HVar Color>1<>1<>1<>1<HVar Inculd><HVar InputMode>3<VarIntDefaultValue>0<VarTextDefaultValue><VarFloatDefaultValue>0.f<VarBoolDefaultValue>0<VarNotInputDefaultValue>
+<HVar Type>double<HVar Text>雙浮點 ( double )<HVar Color>1<>1<>1<>1<HVar Inculd><HVar InputMode>2<VarIntDefaultValue>0<VarTextDefaultValue><VarFloatDefaultValue>0.f<VarBoolDefaultValue>0<VarNotInputDefaultValue>
+<Half PureFunction>
+<Half PureFunctionID>HalfBlueprint-Append<HName>Append <Half Code>std::string(<C Head Append><C End><Code End Append>)<All Code End><Half Inculde>#inculd <string><Unified Append><HTrue>).append(<Half Pin Input>std::string<>String 1<>1<>1<>1<>1<><> 1<Next>std::string<>String 2<>1<>1<>1<>1<><>1<Half Pin Output>std::string<> Out String 1<>1<>1<>1<>1<><>-1
