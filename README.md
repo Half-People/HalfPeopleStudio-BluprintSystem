@@ -7,7 +7,7 @@
 - 可以自製插件          custom plugins
 - 有保存系統            have save system
 
-- 自帶編譯器             Built-in compiler  --- 開發中 In development 65%
+- 自帶編譯器             Built-in compiler  --- 開發中 In development 75%
 - 可兼容任意語言      Compatible with any language---開發中 In development 1%
 - ... 
 
