@@ -1,0 +1,3 @@
+<Introduction to plugins> This is HalfPeople Blueprint Test Plugin <\n> ovo
+<FunctionList>
+<FunctionID>HalfPeopleTest||System <HName>System <Half Pin Input>signal<><>1<>1<>1<>1<><>-1<Next>std::string<>Command<>1<>0<>0.5<>1<>#include <string><>1<><Half Pin Output>signal<><>1<>1<>1<>1<><>-1<Half Code>system ( <C Head Append><C End><Code End Append> );<\n><All Code End><PartitionSymbol><PeerOperation>-1<Half Inculd>#include <Windows.h><>#include <string><Half End> This is System CMD

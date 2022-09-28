@@ -1,18 +1,8 @@
 
 <Half VariableListSave> </>
-int<Half Text>NewVariable_Int<Half Color>0<G>0<B>0<A>0<Half Includ><Half InputMode>3<Half Int>0<Half Text><Half Float>0<Half Bool>0<NotInputCreateData>
-bool<Half Text>NewVariable_Bool<Half Color>0<G>0<B>0<A>0<Half Includ><Half InputMode>0<Half Int>0<Half Text><Half Float>0<Half Bool>0<NotInputCreateData>
-std::string<Half Text>NewVariable_String<Half Color>0<G>0<B>0<A>0<Half Includ>#include <string><Half InputMode>1<Half Int>0<Half Text>This is String<Half Float>0<Half Bool>0<NotInputCreateData>
+bool<Half Text>NewVariable_1<Half Color>0<G>0<B>0<A>0<Half Includ><Half InputMode>0<Half Int>0<Half Text><Half Float>0<Half Bool>0<NotInputCreateData>
 <Half VariableNodeSave> </>
 <Half FunctionNodeSave> </>
-Test ForLoop <X:>-124<Y:>45<ID>225<Input Pin><Input Data><Input Data>0<Input Data>100<OutputData><End>
-HalfBlueprint-Print   打印文本<X:>543<Y:>46<ID>255<Input Pin><Input Data><Input Data><OutputData><End>
+HalfBlueprint-Print   打印文本<X:>295<Y:>28<ID>3<Input Pin><Input Data><Input Data><OutputData><End>
 <Half PureFunction> </>
-HalfBlueprint-Append<X:>204<Y:>93<ID>259<Input Pin><Input Data>\n<Input Data><End>
-IntToString<X:>55<Y:>126<ID>263<Input Pin><Input Data>0<End>
 <Half LinkSave> </>
-18446744073709551615<Half Inpute>2<Half Outpute>226
-18446744073709551614<Half Inpute>256<Half Outpute>229
-18446744073709551613<Half Inpute>262<Half Outpute>257
-18446744073709551612<Half Inpute>230<Half Outpute>264
-18446744073709551611<Half Inpute>265<Half Outpute>261
